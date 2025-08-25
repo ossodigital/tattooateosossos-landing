@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+header {
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #2a2a2a;
+}
+
+.hero h1 {
+  color: #ff6600;
+  font-size: 2.5em;
+}
+
+.hero form {
+  margin-top: 20px;
+}
+
+.hero input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.servicos {
+  padding: 40px 20px;
+  background-color: #1e1e1e;
+}
+
+.servicos h2 {
+  color: #ff6600;
+  text-align: center;
+}
+
+.servicos ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.servicos li {
+  margin: 10px 0;
+}
+
+.testimonials {
+  background-color: #121212;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #ff6600;
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-item {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-left: 5px solid #ff6600;
+  border-radius: 6px;
+  font-style: italic;
+}
+
+.testimonial-item span {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+  font-style: normal;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #ccc;
+}

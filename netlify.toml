@@ -1,0 +1,10 @@
+[build]
+  publish = "public"
+  command = ""
+
+# rota de fallback (SPA-friendly, mas aqui nossa navegação é âncora)
+# Mantemos exemplo para futuros apps:
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200

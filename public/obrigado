@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mensagem enviada — Osso Digital</title>
+  <link rel="stylesheet" href="./style.css" />
+  <style>
+    main{min-height:60vh;display:grid;place-items:center;text-align:center;padding:2rem}
+    .thanks{background:var(--card);border:1px solid var(--line);padding:2rem;border-radius:1rem;max-width:640px}
+    .thanks h1{margin:.2rem 0}
+    .thanks p{color:var(--muted)}
+    .thanks .btn{margin-top:1rem}
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a href="./index.html" class="brand">
+        <img src="./images/logo.png" alt="Logo Osso Digital" class="logo" />
+        <span>Osso Digital</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="thanks">
+      <h1>✅ Mensagem enviada!</h1>
+      <p>Obrigado por entrar em contato. Nosso time responderá em até 1 dia útil.</p>
+      <a class="btn btn--primary" href="./index.html">Voltar ao site</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Osso Digital.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
